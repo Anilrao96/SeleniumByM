@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel execution" parallel = "tests">
+<test name = "Chrome Results">
+<Classes>
+<parameter name = "Browser" value = "chrome"></parameter>
+<class name = "testNG.AjaxHandling">
+<methods>
+<include name = "f"></include>
+</methods>
+</class>
+</Classes>
+</test>
+<test name = "Firefox Results">
+<Classes>
+<parameter name = "Browser" value = "firefox"></parameter>
+<class name = "testNG.AjaxHandling">
+<methods>
+<include name = "f"></include>
+</methods>
+</class>
+</Classes>
+</test>
+
+
+</suite>

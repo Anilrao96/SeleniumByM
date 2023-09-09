@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Suite name = "Batch execution"> 
+<test name = "HMS login results"> 
+<classes>
+<class name = "TestNG.HMSLOGINLOGOUT">
+<methods> 
+<include name ="beforeTest"> </include> 
+<include name = "verifyLogin"> </include>
+</methods>
+</class>
+
+<class name="Googlelanguages">
+<methods>
+<include name="Googlelanguages"> </include>
+</methods>
+</class>
+</classes>>
+
+
+</test>
+
+
+</Suite>

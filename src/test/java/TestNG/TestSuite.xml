@@ -1,0 +1,14 @@
+<suite name= "HMS suite">
+<test name="HMS results">
+<classes>
+<class name = "TestNG.HMSLOGINLOGOUT">
+<methods>
+<include name = "verifyLogin()"> </include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
+
+
+
